@@ -13,7 +13,7 @@ You are tasked with investigating suspicious process activity and network connec
 3. Set time filter: **Apr 29, 2024 – 12:00 to 20:00**.
 4. Begin event-by-event analysis.
  
-   ![Screenshot](Document_Images/image3.png)
+![Screenshot](Document_Images/image3.png)
 
 
 
@@ -24,6 +24,7 @@ You are tasked with investigating suspicious process activity and network connec
 PowerShell downloaded `PhishingAttachment.xlsm` from `http://localhost` and saved it as:`SwiftSpend_Financial_Expenses.xlsm`
 
 **Answer:** `SwiftSpend_Financial_Expenses.xlsm`
+
 
    ![Screenshot](Document_Images/image4.png)
 
@@ -43,7 +44,7 @@ On Windows, schtasks.exe is commonly used to create or check scheduled tasks. I 
 3.	The task runs daily at 12:34 PM, executing the base64-decoded PowerShell command.
 4.	Why it’s used: This technique hides the real payload in the registry and uses a scheduled task to persist and execute it—common in persistence or malware simulation.
   
-     ![Screenshot](Document_Images/image5.png)
+   ![Screenshot](Document_Images/image5.png)
 
 
 
